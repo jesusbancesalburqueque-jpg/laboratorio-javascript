@@ -19,3 +19,31 @@ Unidad 3
 `;
 
 console.log(mensaje);
+
+let sabor = "chocolate";
+
+if (sabor == "chocolate") {
+    console.log("El sabor es chocolate");
+} else {
+    console.log("Elijiste otro sabor");
+}
+
+let opcion = 2;
+
+switch(opcion) {
+    case 1:
+        console.log("Opción seleccionada: 1");
+        break;
+    case 2:
+        console.log("Opción seleccionada: 2");
+        break;
+    case 3:
+        console.log("Opción seleccionada: 3");
+        break;
+    default:
+        console.log("Opción inválida");
+}
+
+for(let i = 1; i <= 10; i++) {
+    console.log(`Iteración número: ${i}`);
+}
